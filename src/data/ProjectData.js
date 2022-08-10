@@ -70,6 +70,16 @@ export const stackList = [
     percentage: "85",
   },
   {
+    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Laravel.svg/1200px-Laravel.svg.png",
+    name: "Laravel",
+    percentage: "85",
+  },
+  {
+    img: "https://www.logolynx.com/images/logolynx/18/18a311c9932a4327ded4436577bda857.png",
+    name: "SQL",
+    percentage: "85",
+  },
+  {
     img: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Rust_programming_language_black_logo.svg/1200px-Rust_programming_language_black_logo.svg.png",
     name: "Rust",
     percentage: "70",

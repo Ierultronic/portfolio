@@ -9,6 +9,7 @@ import {
   ContactWrapper,
 } from "./AboutElements";
 import CountUp from 'react-countup';
+import VisibilitySensor from 'react-visibility-sensor';
 
 function About() {
   return (
@@ -21,7 +22,7 @@ function About() {
             alt="man-svgrepo"
           />
           <div className="AboutBio">
-            Hello! My name is <strong>Amierul Izzuddin</strong> and this website still inder construction. huhu...
+            Hello! My name is <strong>Amierul Izzuddin</strong> and this website still under construction. huhu...
           </div>
           <div className="AboutBio tagline2">
             I have become confident using the following technologies.
@@ -31,7 +32,12 @@ function About() {
               <Tech key={index} className="tech">
                 <TechImg src={stack.img} alt={stack.name} />
                 <TechName>{stack.name}</TechName>
-                <span><CountUp end={stack.percentage} />%</span>
+                <span><CountUp end={stack.percentage} >{({ countUpRef, start }) => (
+                      <VisibilitySensor onChange={start} delayedCall>
+                          <span ref={countUpRef} />
+                      </VisibilitySensor>
+                    )}
+                </CountUp>%</span>
               </Tech>
             ))}
           </Technologies>
