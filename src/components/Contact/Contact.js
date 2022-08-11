@@ -58,10 +58,7 @@ function Contact() {
                   <div class="screen-body-item">
                     <div class="app-form">
                       <div class="app-form-group">
-                        <input class="app-form-control" type="text" name="from_name" placeholder="NAME*" required />
-                      </div>
-                      <div class="app-form-group">
-                        <input class="app-form-control" type="email" name="from_email" placeholder="EMAIL*" required />
+                        <input class="app-form-control" type="email" name="from_name" placeholder="EMAIL*" required />
                       </div>
                       <div class="app-form-group message">
                         <input class="app-form-control" name="message" placeholder="MESSAGE*" required />

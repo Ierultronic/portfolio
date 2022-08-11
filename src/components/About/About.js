@@ -18,7 +18,7 @@ function About() {
         <div className="SectionTitle">About Me</div>
         <div className="BigCard">
           <Image
-            src="https://avatars.githubusercontent.com/u/97608853?v=4"
+            src={process.env.PUBLIC_URL + '/under_construct.png'}
             alt="man-svgrepo"
           />
           <div className="AboutBio">
