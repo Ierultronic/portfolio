@@ -16,7 +16,7 @@ const SiderBar = styled.div`
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  opacity: ${({ isOpen }) => (isOpen ? "100%" : "0")};
+  opacity: ${({ isOpen }) => (isOpen ? "95%" : "0")};
   top: ${({ isOpen }) => (isOpen ? "0" : "-100%")};
 `;
 
@@ -87,14 +87,6 @@ function Dropdown({ isOpen, toggle }) {
         </NavLink>
       </NavMenu>
       <NavBtn onClick={toggle}>
-        <a
-          className="btn PrimaryBtn"
-          href="https://github.com/gurupawar/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Resume
-        </a>
       </NavBtn>
     </SiderBar>
   );
