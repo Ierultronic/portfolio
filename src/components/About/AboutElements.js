@@ -8,7 +8,7 @@ export const Image = styled.img`
   max-width: 200px;
   max-height: 200px;
   margin: 0 auto;
-  margin-bottom: 1rem;
+  margin-top: -3rem;
 `;
 
 export const Technologies = styled.div`

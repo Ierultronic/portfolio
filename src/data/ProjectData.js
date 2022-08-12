@@ -82,7 +82,7 @@ export const stackList = [
   {
     img: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Rust_programming_language_black_logo.svg/1200px-Rust_programming_language_black_logo.svg.png",
     name: "Rust",
-    percentage: "70",
+    percentage: "50",
   },
   {
     img: "https://cdn-icons-png.flaticon.com/512/25/25231.png",
