@@ -22,15 +22,7 @@ const Header = ({ toggle }) => {
             Contact
           </NavLink>
         </NavMenu>
-        <NavBtn>
-          <a
-            className="btn PrimaryBtn"
-            href="https://github.com/gurupawar/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Resume
-          </a>
+        <NavBtn> 
         </NavBtn>
         <Bars onClick={toggle} />
       </Nav>
