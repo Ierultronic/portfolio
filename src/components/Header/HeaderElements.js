@@ -26,8 +26,8 @@ export const NavLink = styled(ScrollLink)`
 `;
 export const Logo = styled(LinkRouter)`
   img {
-    width: 65px;
-    height: 65px;
+    width: 90px;
+    height: 90px;
   }
 `;
 
@@ -44,7 +44,7 @@ export const Bars = styled(FaBars)`
 export const NavMenu = styled.div`
   display: flex;
   align-items: center;
-  margin-right: -24px;
+  margin-right: 1rem;
 
   .menu-item + .menu-item {
     margin-left: 1rem;

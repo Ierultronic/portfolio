@@ -36,7 +36,7 @@ function Hero() {
               />
             </h5>
               <p>
-                I design and code beautifully simple things, and I love what I do.
+                I thought I knew, now I'm learning.
               </p>
           </HeroLeft>
           <HeroRight>
@@ -46,11 +46,11 @@ function Hero() {
             />
           </HeroRight>
         </HeroWrapper>
-        <ScrollDown to="projects">
+        <ScrollDown to="about">
           <ScrollLink>
             Scroll down
             <img
-              src="https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/scroll-down.svg"
+              src={process.env.PUBLIC_URL + '/scroll_down.jpg'}
               alt="scroll-down"
             />
           </ScrollLink>

@@ -116,8 +116,8 @@ export const ScrollLink = styled.div`
   text-shadow: 2px 2px #151418;
 
   img {
-    height: 35px;
-    width: 35px;
+    height: 40px;
+    width: 40px;
     margin-left: 6px;
   }
 `;
